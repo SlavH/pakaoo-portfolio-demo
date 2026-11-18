@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#fbf7f0"/>
+  <rect x="0" y="0" width="1200" height="12" fill="#e2622c"/>
+  <g transform="translate(90,230)">
+    <rect width="90" height="90" rx="22" fill="#e2622c"/>
+    <text x="45" y="66" font-family="Arial" font-size="58" font-weight="bold" fill="#fff" text-anchor="middle">P</text>
+    <text x="120" y="66" font-family="Arial" font-size="64" font-weight="bold" fill="#1c1917">pakaoo</text>
+  </g>
+  <text x="90" y="400" font-family="Arial" font-size="46" fill="#1c1917">Real food. Made fresh.</text>
+  <text x="90" y="460" font-family="Arial" font-size="26" fill="#6b6259">Bengaluru food-tech · Fresh Indian meals, delivered</text>
+</svg>

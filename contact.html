@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contact Pakaoo — Get in Touch | Bengaluru Food-Tech</title>
+<meta name="description" content="Contact Pakaoo for partner kitchen enquiries, pre-orders, or questions. Based in Bengaluru, India." />
+<link rel="canonical" href="https://slavh.github.io/pakaoo-portfolio-demo/contact.html" />
+<meta property="og:title" content="Contact Pakaoo" />
+<meta property="og:description" content="Partnerships, pre-orders, and questions — reach the Pakaoo team." />
+<meta property="og:url" content="https://slavh.github.io/pakaoo-portfolio-demo/contact.html" />
+<meta property="og:image" content="https://slavh.github.io/pakaoo-portfolio-demo/og-image.svg" />
+<meta name="twitter:card" content="summary_large_image" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ContactPage","name":"Contact Pakaoo","url":"https://slavh.github.io/pakaoo-portfolio-demo/contact.html"}
+</script>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-mark">P</span><span class="brand-name">pakaoo</span></a>
+  <nav aria-label="Main navigation">
+    <a href="index.html">Home</a><a href="about.html">About</a><a href="menu.html">Menu</a><a href="partners.html">Partners</a><a href="contact.html" class="active">Contact</a>
+  </nav>
+</header>
+<main>
+  <section class="page-hero">
+    <p class="eyebrow">Contact</p>
+    <h1>Let's talk food</h1>
+    <p class="lede">Partnerships, pre-orders, or just a question — drop us a note.</p>
+  </section>
+  <section class="section contact-wrap">
+    <form class="contact-form" id="contactForm" novalidate>
+      <label for="name">Your name</label>
+      <input id="name" name="name" type="text" required placeholder="Ananya Rao" />
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" required placeholder="you@example.com" />
+      <label for="topic">What's this about?</label>
+      <select id="topic" name="topic">
+        <option>Partner kitchen</option><option>Pre-order</option><option>Brand collaboration</option><option>Other</option>
+      </select>
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required placeholder="Tell us a little about what you have in mind..."></textarea>
+      <button class="btn btn-primary" type="submit">Send message</button>
+      <p class="form-note" id="formNote" role="status"></p>
+    </form>
+    <aside class="contact-info">
+      <h2>Reach us</h2>
+      <p><strong>Location</strong><br />Bengaluru, Karnataka, India</p>
+      <p><strong>Email</strong><br />hello@pakaoo.example</p>
+      <p><strong>Hours</strong><br />Mon–Sat, 9am–9pm IST</p>
+    </aside>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="footer-brand"><span class="brand-mark">P</span> pakaoo</div>
+  <p>© 2026 Pakaoo · Bengaluru, India. A demo portfolio site.</p>
+  <nav><a href="about.html">About</a><a href="menu.html">Menu</a><a href="partners.html">Partners</a><a href="contact.html">Contact</a></nav>
+</footer>
+<script>
+  document.getElementById('contactForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const note = document.getElementById('formNote');
+    note.textContent = 'Thanks! This is a demo form — in the production build this connects to your API or email service.';
+    note.style.color = '#e8a33d';
+  });
+</script>
+</body>
+</html>
